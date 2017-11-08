@@ -27,9 +27,7 @@ class Dictionary
   end
 
   def find(lookup)
-    @words.select{ |k,v|
-      k.start_with?(lookup)
-    }
+    @words.select { |k,v| k.start_with?(lookup) }
   end
 
 end
