@@ -42,7 +42,7 @@ currentArrayItem = 0;
 project.steps.forEach( function(step){
   step.person = project.committee[currentArrayItem];
   currentArrayItem += 1;
-  if (currentArrayItem===people){ currentArrayItem = 0}
+  if (currentArrayItem===people){ currentArrayItem = 0;}
 });
 
 console.log(project);
